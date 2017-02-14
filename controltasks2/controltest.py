@@ -6,7 +6,7 @@ def task1(filename):
     with open ('Stringnumber.txt', 'w', encoding='utf-8') as t:
         t.write('The number of strings is '+str(l))
     return
-#pflfybt2
+#задание2
 def task2(filename):
     d=dict()
     with open(filename,'r',encoding='utf-8') as f:
