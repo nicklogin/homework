@@ -35,7 +35,7 @@ def main():
     sentences = getsentences(input('Введите имя файла:    '))
     if sentences:
         for sentence in sentences:
-            if sentence.count(' ')>11:
+            if sentence.count(' ')>9:
                 upwords=[i for i in sentence.split(' ') if i.istitle()]
                 if upwords:
                     #каждая строка - слова из одного предложения
