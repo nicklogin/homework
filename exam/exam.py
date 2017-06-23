@@ -12,7 +12,7 @@ def savedict(d, filename):
 def savearray(ar, filename):
     with open(filename,'w', encoding='utf-8') as f:
         for el in ar:
-            line = ''.join(el)+','+'\n'
+            line = '\t'.join(el)+'\n'
             f.write(line)
     #print('dictionary successfully saved')
     return
